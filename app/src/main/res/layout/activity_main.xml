@@ -8,14 +8,32 @@
     android:background="#121212"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Android Service"
-        android:textColor="@color/white"
-        android:fontFamily="@font/poppins_black"
-        android:textStyle="bold"
-        android:textSize="25sp" />
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_black"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
 
 </RelativeLayout>
